@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+body {
+    background-image: url(../img/fondoPantallaPrincipal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+html{
+  overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+  overflow-y: hidden; /*oculta el contenido que se sale de la pantalla*/
+}
+
+/*imagen wallie*/
+
+.contenedorImg .row {
+    padding-top: 100px;
+    margin-left: 35%;
+    width: 90%;
+  }
+
+img{
+  width: 70%;
+}
+
+/*tarjetas*/
+.contenedorTarjetas {
+    height: 100% !important;
+    margin-top: 7% !important;
+    margin-left: -10%;
+}
+
+.contenedorTarjetas .row .tarjetas{
+    border-radius: 10px !important;
+    background-color: #FFFBFA !important;
+    height: 110px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.contenedorTarjetas .row {
+    margin-bottom: 10PX;
+    height: 120px;
+}
+.tarjetas {
+  width: 90%;
+  
+}
+
+.tarjetas .medium{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #5271FF;
+
+}
+
+.tarjetas p{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #5271FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animacion usuario logeado*/
+
+  .contenedorUsuarioIngresado {
+    position: absolute;
+    display: flex;
+    padding-top: 2em;
+  }
+
+  .item {
+    background-color: #fff;
+    line-height: 4;
+    padding: 0 2em;
+    color: #000000;
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .item:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #5271FF;
+    transition: all .3s;
+  }
+  .item:hover:before {
+    width: 100%;
+  }
+  
+  .tres:before {
+    left: 50%;
+  }
+  
+  .tres:hover:before {
+    left:0;
+  }
+
+
+
+
+
+    /* Estilos para el contenedor principal */
+    .parent {
+        position: relative;
+      }
+  
+      /* Estilos para el div1 */
+      #div1, #rol1 {
+        display: none; /* Inicialmente oculto */
+      }
+  
+      /* Estilos para el div2 */
+      #div2, #rol2 {
+        display: block; /* Inicialmente visible */
+      }
+
+
+
+
+      .centrarCrear {
+        display: flex;
+        align-items: center;
+    }
+    
+    .centrarCrear i {
+        margin-right: 5px; /* Ajusta el margen derecho según tus preferencias */
+    }
+
+    .centrarCrear a {
+        color: black; /* Ajusta el margen derecho según tus preferencias */
+    }
+    .centrarCrear a:hover {
+        color: #5271FF; /* Ajusta el margen derecho según tus preferencias */
+    }
+
+    .row .col.s6 {
+      margin-left: -4%;
+    }

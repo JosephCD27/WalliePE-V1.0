@@ -1,0 +1,138 @@
+*{  /*cuando se usa asterisco (*) es para causar un efecto univesal en toda la pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*hace que el padding y border pasen a ser parte del calculo de la caja y no sume sus proporciones al calculo final*/
+    text-decoration: none;
+    outline: none; /*Es utilizada para remover el contorno que se ubica fuera de los límites del borde de un elemento*/
+    scroll-behavior: smooth; /*permite un desplazamiento fluido dentro de una misma pagina*/
+}
+
+body {
+    background-image: url(../img/fondoNuevo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+html{
+    overflow-x: hidden; /*oculta el contenido que se sale de la pantalla*/
+    overflow-y: hidden; /*oculta el contenido que se sale de la pantalla*/
+
+}
+
+.container{
+    padding-bottom: 10%!important;
+}
+
+.contenedorFiltro form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+/*------------FORMULARIO------------*/
+
+.fondoForm{
+    background-color:#ffffff;
+    border-radius: 5px;
+}
+
+.input-field, .s12 .inputModificado{
+    width: 100%!important;
+    padding: 0!important;   
+}
+
+
+.inputModificado{
+    padding: 0!important;
+    margin: 0!important;
+    height: 30px !important;
+    margin-top: 5px !important;
+    background-color: #5272ff19 !important;
+    border-radius: 5px !important;
+    border: 2px solid #5272ff00 !important;
+    color: black;
+}
+
+.inputModificado:focus{
+    border: 2px solid #5271FF !important;
+}
+
+.inputModificado::placeholder{
+    color: #a4a4a4cf;
+    padding-left: 5px!important;
+}
+
+    /*Label*/
+    .input-field .labelModificado{
+        color: #5b5b5b !important;
+    }
+    .input-field .inputModificado:focus + label{
+        color: #5271FF !important;
+        box-shadow: none;
+    }
+
+
+.btnFormulario{
+    margin-top: 10px;
+    background: #3E3374;
+    width: 8rem !important;
+    height: 35px !important;
+    border: 2px solid #3E3374 !important;
+    border-radius: 5px !important;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.btnFormulario:hover{
+    font-weight: bolder;
+    color: #fff;
+    background-color: #5271FF;
+    border: 2px solid #5271FF !important;
+    cursor: pointer;
+}
+
+/*------------opciones de filtro------------*/
+
+/*------------Tabla------------*/
+.contenedor_lista{
+    width: 85%;
+    margin: 0 auto;
+}
+.lista{
+    max-height: 23rem;
+    overflow-y: scroll;
+}
+
+.tabla thead{ 
+    background-color: #1e3dc9d5;
+    color: #fff;
+    border-bottom: solid white;
+}
+th{
+    width: 33.3%;
+}
+td{
+    width: 33.3%;
+}
+
+.tabla tbody{ 
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);   
+}
+
+.titulo1 h5{
+    font-size: 1.5rem !important;
+    font-weight: bolder !important;
+    color: #000000;
+}
+.titulo2{
+    font-size: 1rem !important;
+    color: #000000;
+}
+
+.tooltiped{
+    margin-bottom: 0;
+}

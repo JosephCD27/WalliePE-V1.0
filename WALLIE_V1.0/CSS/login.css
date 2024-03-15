@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondoLogin2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gridLogin {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    /*border: 3px solid red;*/
+}
+
+.tarjForm {
+    position: relative;
+    margin-top: 10%;
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+    transform: translate(60%, 30%);
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../img/fondoModales.png")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tarjForm input[type=text], 
+.tarjForm input[type=password] {
+    border: 3px solid transparent !important;
+    border-radius: 5px !important;
+    margin-left: 20% !important;
+    padding: 2% 1% !important;
+    width: 60% !important;
+    background-color: #d2deeb !important;
+    margin-bottom: 5% !important;
+    box-sizing: border-box !important;
+    -webkit-transition: 0.5s !important;
+    transition: 0.5s !important;
+    outline: none !important;
+}
+.tarjForm  input[type=text]:focus {
+    border: 3px solid #5c67ff !important;
+  }
+  .tarjForm  input[type=text]:hover {
+    border: 3px solid #5c67ff !important;
+  }
+  
+.tarjForm  input[type=password]:focus {
+    border: 3px solid #5c67ff !important;
+  }
+  .tarjForm  input[type=password]:hover {
+    border: 3px solid #5c67ff !important;
+  }
+::placeholder{
+    color: #7c7c7c !important;
+}
+
+.tarjForm button {
+    padding: 2% 1%;
+    width: 25%;
+    background-color: #043df7;
+    color:#ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 38%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    margin-top: 10%;
+    font-size: 1rem;
+        -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.tarjForm button:hover {
+    padding: 2% 1%;
+    width: 25%;
+    background-color: #00358F;
+    color:#ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 38%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    margin-top: 10%;
+    font-size: 1rem;
+}
+
+.imgLogin img {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    transform: translate(85%, 25%);
+}
+.iconoHerramienta{
+    margin-left: 2rem;
+}
+
+.titulo {
+    color: #0064d6;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+
+
+
+
+
+footer{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    height: 4rem;
+    width: 100%;
+}   
+.tarjContacto {
+    color: #fff;
+    text-align: right;
+}
+.tarjContacto a{
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #fff;
+}
+.tarjContacto a:hover{
+    color: #00358F !important;
+}
+
+.tarjContacto img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+
+
+.cuadrados{
+    position: absolute;
+    width: auto;
+}
+
+.c1{
+    width: 10%;
+    height: 10%;
+    border: 3px solid#000bac;
+}
