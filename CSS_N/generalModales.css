@@ -1,0 +1,145 @@
+body {
+    box-sizing: border-box !important;
+}
+
+/*titulos y subtitulos*/
+.tituloModal{
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color:  #5745C4;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #7C6DD8;
+    padding: 10px; /* Espaciado interno para que el texto no quede pegado al borde */
+    background-color: #ffff !important; 
+}
+
+/*tarjetas de fondo*/
+.tarjetaModal{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #F5F5F6;
+    padding: 10px;
+}
+
+.tarjetaModalEditar{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #F5F5F6;
+    padding: 10px;
+}
+
+.tarjetaModalCrear{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #FAF7FF;
+    padding: 10px;
+    position: relative;
+    background-image:
+        linear-gradient(10deg, #c0b5fd61 15%, #ffffff 0%, #ffffff 90%, #c0b5fd61  90%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*inputs de texto*/
+.inputModificadoEditar{
+    margin-top: 5px 0 5px 0!important;
+    border-radius: 5px!important;
+    background-color: #E9E6EF!important;
+    box-sizing: border-box !important;
+    padding: 0 5px 0 5px!important;
+}
+.inputModificadoEditar:focus{ 
+    background-color: #fff!important;
+    border: 1px solid #7C6DD8!important;
+    border-bottom: 2px solid #7C6DD8!important;
+}
+.inputModificadoEditar:focus + label{
+    color:  #7C6DD8!important;
+}
+.textarea_Modificado_Editar{
+    resize: none !important;
+    margin-top: 5px!important;
+    border-radius: 5px!important;
+    background-color:#E9E6EF!important;
+    padding: 10px 10px 0 10px!important;
+}
+.textarea_Modificado_Editar:focus{
+    background-color: #fff!important;
+    outline: 1px solid #7C6DD8!important;
+    border-bottom: 2px solid #7C6DD8!important;
+}
+.textarea_Modificado_Editar:focus + label{
+    color:  #7C6DD8!important;
+}
+
+
+.inputModificadoCrear{
+    margin-top: 5px 0 5px 0!important;
+    border-radius: 5px!important;
+    background-color: #ffffff!important;
+    box-sizing: border-box !important;
+    padding: 0 5px 0 5px!important;
+    border: 1px solid #7C6DD8!important;
+}
+.inputModificadoCrear:focus{ 
+    background-color: #fbfaff!important;
+    border: 1px solid #7C6DD8!important;
+    border-bottom: 2px solid #7C6DD8!important;
+}
+.inputModificadoCrear:focus + label{
+    color:  #7C6DD8!important;
+}
+.textarea_Modificado_Crear{
+    margin-top: 5px!important;
+    border-radius: 5px!important;
+    background-color: #ffffff!important;
+    padding: 10px 10px 0 10px!important;
+    border: 1px solid #7C6DD8!important;
+}
+.textarea_Modificado_Crear:focus{
+    background-color: #fbfaff!important;
+    outline: 1px solid #7C6DD8!important;
+    border-bottom: 2px solid #7C6DD8!important;
+}
+.textarea_Modificado_Crear:focus + label{
+    color:  #7C6DD8!important;
+}
+
+
+/*botones*/
+.centrarBoton{
+    text-align: center;
+}
+.botonModal {
+    color: #ffff;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 50px !important;
+    width: 100% !important;
+    background-color: #5745C4;
+    border-color: #7C6DD8;
+    border-radius: 5px;
+    justify-content: center;
+}
+.botonModal:hover, .botonModal:focus{
+    background-color: #7C6DD8;
+}
+
+
+.botonConfirmarEliminar{
+    background-color: red!important;
+}
+.botonConfirmarEliminar:hover{
+    background-color: #ff000089!important;
+}
+.botonCancelarEliminar{
+    background-color: greenyellow!important;
+}
+.botonCancelarEliminar:hover{
+    background-color: #acff2f9a!important;
+}
+

@@ -1,0 +1,105 @@
+body {
+    position: relative;
+    background-color: #FF5733;
+    background-image:
+        linear-gradient(-45deg, #5745C4 15%, #ffffff 4%, #ffffff 55%, #5745C4 45%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    }
+
+    
+/*ESTILOS PARTICLES.JS*/ 
+.content-container {
+    position: relative;
+    z-index: 1;
+    
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.content-container .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    min-height: 100vh;
+    position: relative;
+    z-index: 2; /* Asegura que esté sobre las partículas */
+}
+
+    .imagenLogo{
+        justify-content: center !important;
+    }
+    .imagenLogo span img {
+        margin: 0 auto!important;
+        justify-content: center !important;
+        width: 200px;
+        height: 100px;
+        background-color: transparent; /* Color que quieres aplicar cuando la imagen está sobre el fondo */
+        mix-blend-mode: multiply; /* Modo de mezcla: diferencia */
+
+    }
+
+
+    .olvideContrasena{
+        text-align: right;
+    }
+
+    .row .col {
+        padding: 0!important;
+    }
+
+    input{
+        border: 2px solid #7C6DD8  !important;
+        margin: 10px 0 10px 0 !important;
+        height: 50px !important;
+        width: 100%;
+        border-radius: 5px !important;
+        }
+    
+    input:focus{
+        outline: 3px solid #7C6DD8  !important;
+    }
+    input::placeholder{
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    .boton{
+        margin-top: 20px;
+        padding: 0  !important;
+    }
+    .boton button {
+        height: 50px !important;
+        width: 100% !important;
+        background-color: #7C6DD8;
+        border-color: #8523FB;
+    }
+    button:hover, button:focus{
+        background-color:  #5b49d3!important;
+    }
+
+/* For tablets */
+@media only screen and (min-width: 600px) {
+    .imagenLogo span img {
+        width: 110px;
+        height: 50px;
+    }
+}
+
+/* For desktop */
+@media only screen and (min-width: 768px) {
+    .imagenLogo span img {
+        width: 150px;
+        height: 70px;
+    }
+}
+

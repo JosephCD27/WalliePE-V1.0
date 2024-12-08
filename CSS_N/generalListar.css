@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+/*ESTILOS PARTICLES.JS*/ 
+.content-container {
+    position: relative;
+    z-index: 1;
+    
+}
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    min-height: 80vh;
+    position: relative;
+    z-index: 2; /* Asegura que esté sobre las partículas */
+}
+
+
+
+.titulo {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2rem;
+    color:  #5745C4;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #7C6DD8;
+    padding: 10px; /* Espaciado interno para que el texto no quede pegado al borde */
+    transform: translateY(-65px); /* Traslada el elemento hacia arriba 10px */
+    background-color: #ffff !important; 
+
+}
+
+
+
+.table{
+    border: 2px solid #F0EDFA !important;
+    --bs-table-hover-bg: #BEBCCF;
+}
+tr, th, td{
+    border: 2px solid #F0EDFA !important;
+}
+.table thead th{
+    font-size: 1rem;
+    background-color: #7C6DD8 !important; 
+    color: #FFFFFF;
+}
+
+
+
+.fondo
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding: 30px 0 30px 0;
+    background-color: #ffffff !important;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+}
+
+
+
+/*DATATABLES */
+.dt-container{
+    width: 80%;
+    margin: 0 auto !important;
+    
+}
+
+
+
+table#identificadorDataTables thead tr .dt-center,
+table#identificadorDataTables tbody tr .dt-center {
+    text-align: center;
+}
+
+
+
+
+.dt-search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-right: 100px !important;
+}
+div.dt-container .dt-search input{
+    border: 2px solid #DDD4FE;
+    height: 25px;
+    margin: 0 0;
+}
+
+
+
+
+.justify-content-between{
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; /* Alinea horizontalmente */
+    width: 100%;
+    margin-bottom: 10px; /* Ajusta el espaciado según sea necesario */
+}
+.justify-content-between .dt-buttons{
+    height: 38px; /* Asegúrate de que el botón tenga la misma altura que el input */
+    padding-top: 6px; /* Ajusta el relleno para que coincida con la altura del input */
+}
+.justify-content-between button.buttons-excel{
+    background-color: #1EBD68;
+    border-color:#1EBD68;
+}
+.justify-content-between button.buttons-excel:hover{
+    transform: scale(0.90)!important;
+    cursor: pointer!important;
+    background-color: #1EBD68!important;
+    border-color:#1EBD68!important;
+    box-shadow: none;
+}
+.justify-content-between button.buttons-pdf{
+    background-color: #FD3838;
+    border-color: #FD3838;
+}
+.justify-content-between button.buttons-pdf:hover{
+    transform: scale(0.90)!important;
+    cursor: pointer!important;
+    background-color: #FD3838!important;
+    border-color: #FD3838!important;
+    box-shadow: none;
+}
+
+.crear{
+    display: flex;
+    margin-bottom: 10px!important;
+    flex-direction: row-reverse;
+}
+
+
+
+
+.dt-length{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
+div.dt-container .dt-length .select-wrapper{
+    width: 50px !important;
+    height: 35px;
+    border: 2px solid #DDD4FE;
+    padding: 0;
+}
+
+
+
+
+.row .elementoBitacora {
+    border: 2px solid  #E9D5FF;
+    transform: scale(0.95);
+    box-shadow: 0 4px 5px  #6d6d6dc8;
+    border-radius: 5px;
+}
+.row .elementoBitacora:hover {
+    transform: scale(0.99);
+    background-color: #f2eef6;
+}
+
+.botonElementoBitacora{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    }
+.botonElementoBitacora .fa-clipboard{
+    color: #fdd464;
+    margin-right: 10px;
+}
+.botonElementoBitacora .fa-check{
+    color: #7221a1;
+}
+
+.contenedor_inferior{
+    display: flex;
+    justify-content: center;
+
+}
